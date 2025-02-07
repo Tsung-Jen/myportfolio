@@ -19,6 +19,21 @@
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
+
+  &:disabled {
+    border: 1px solid #999999;
+    // background-color: #cccccc;
+    color: #666666;
+    font-weight: bold;
+  line-height: 1;
+  font-size: 1.5rem;
+  }
+}
+
+.cta-btn--disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
 }
 
 /* Hero Style */
